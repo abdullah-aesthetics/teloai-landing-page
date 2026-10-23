@@ -130,6 +130,7 @@ svg {
     font-weight: 700;
     font-style: oblique 8deg;
     font-size: var(--accent-scale);
+    margin-right: 0.18em;
     line-height: 1;
     color: var(--green);
 }
