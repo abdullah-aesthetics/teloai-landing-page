@@ -23,7 +23,7 @@
 
     --font-body: "Poppins", Arial, sans-serif;
     --font-script: "Caveat", cursive;
-    --accent-scale: 1.1em;
+    --accent-scale: 1.08em;
     --phone-boost: 1.2;
     --bubble-max: 86%;
 
@@ -127,7 +127,8 @@ svg {
 
 .accent {
     font-family: var(--font-script);
-    font-weight: 600;
+    font-weight: 700;
+    font-style: oblique 8deg;
     font-size: var(--accent-scale);
     line-height: 1;
     color: var(--green);
@@ -253,15 +254,18 @@ svg {
     font-size: var(--badge-fs);
     font-weight: 500;
     color: #d7e3e6;
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: rgba(45, 198, 135, 0.07);
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 999px;
 }
 
 .badge svg {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1.3em;
+    height: 1.3em;
     color: var(--green);
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 0.8;
 }
 
 h1 .accent {
@@ -595,10 +599,10 @@ h2 {
 
         --nav-to-badge: calc(89 * var(--u));
         --badge-h: calc(36 * var(--u));
-        --badge-fs: calc(18 * var(--u));
+        --badge-fs: calc(17 * var(--u));
         --badge-pad: calc(22 * var(--u));
 
-        --accent-scale: 1.26em;
+        --accent-scale: 1.22em;
         --phone-boost: 1;
         --bubble-max: 72%;
         --fs-h1: calc(85 * var(--u));
@@ -701,9 +705,10 @@ h2 {
     .card h3 {
         margin-top: calc(var(--icon-size) * 0.2);
     }
-    a:focus-visible,
+}
+
+a:focus-visible,
 .btn:focus-visible {
     outline: 2px solid var(--green);
     outline-offset: 3px;
-}
 }
