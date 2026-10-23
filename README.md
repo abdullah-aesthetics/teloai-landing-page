@@ -25,7 +25,7 @@ No JavaScript, frameworks or templates are used.
 
 1. Download or clone this repository:
    ```
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+   git clone https://github.com/abdullah-aesthetics/teloai-landing-page.git
    ```
 2. Open the project folder.
 3. Double-click `index.html` to open it in your browser.
