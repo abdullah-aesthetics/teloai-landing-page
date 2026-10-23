@@ -701,4 +701,9 @@ h2 {
     .card h3 {
         margin-top: calc(var(--icon-size) * 0.2);
     }
+    a:focus-visible,
+.btn:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+}
 }
