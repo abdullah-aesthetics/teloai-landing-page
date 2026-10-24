@@ -22,8 +22,8 @@
     --white: #ffffff;
 
     --font-body: "Poppins", Arial, sans-serif;
-    --font-script: "Caveat", cursive;
-    --accent-scale: 1.08em;
+    --font-script: "Sedgwick Ave", cursive;
+    --accent-scale: 0.92em;
     --phone-boost: 1.2;
     --bubble-max: 86%;
 
@@ -130,7 +130,7 @@ svg {
     font-weight: 700;
     font-style: oblique 8deg;
     font-size: var(--accent-scale);
-    margin-right: 0.18em;
+    margin-right: 0.15em;
     line-height: 1;
     color: var(--green);
 }
@@ -603,7 +603,7 @@ h2 {
         --badge-fs: calc(17 * var(--u));
         --badge-pad: calc(22 * var(--u));
 
-        --accent-scale: 1.22em;
+        --accent-scale: 1em;
         --phone-boost: 1;
         --bubble-max: 72%;
         --fs-h1: calc(85 * var(--u));
